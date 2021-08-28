@@ -1,0 +1,53 @@
+﻿body{margin:50px 50px 50px 50px; background-color:palevioletred;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);}
+
+.container {
+    
+    background-color: aqua;
+    margin-left:1px;
+    padding:  0px 200px 50px 50px;
+}
+
+h1{background-color:aqua; margin:auto;
+margin-top: 850px;}
+
+td input[type="text"], textarea {
+    width: 175%;
+   
+}
+
+td input[type="submit"],textarea{width:250px;
+                                 padding:8px;
+                                 background-color:palegreen;
+                                 border-radius:20px;
+                                 
+                                                                  
+}
+
+
+td input[type="reset"], textarea {
+    width: 250px;
+    padding: 8px;
+    background-color: palegreen;
+    border-radius: 20px;
+   
+}
+
+td input[type="submit"]:hover {
+    color: red; background-color:yellow;
+    border-color:yellow;
+}
+
+
+td input[type="reset"]:hover{color:red;
+                             background-color:yellow;
+                             border-color:yellow;
+}
+
+
+td input address[type="submit"], textarea {background-color:white;
+                                           border-radius:0px;
+}
